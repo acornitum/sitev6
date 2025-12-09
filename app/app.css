@@ -1,15 +1,28 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-sans: "Roboto Mono", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white dark:bg-[#1A1B2A];
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
+  }
+}
+
+.bobble {
+  animation: bobble-ani 0.7s infinite ease-in-out alternate; 
+}
+
+@keyframes bobble-ani {
+  0% {
+    transform: translateY(0); 
+  }
+  100% {
+    transform: translateY(6px);
   }
 }
