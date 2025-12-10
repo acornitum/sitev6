@@ -17,19 +17,6 @@ export function Welcome() {
           <div className="flex flex-row">
             <img src="/aconpfp.png" className="border-white rounded-sm border-3 w-24 z-10 md:mt-8"/>
 
-
-
-
-
-            {/*<div className="flex flex-row space-x-7 ml-auto mt-auto mb-2 mr-2">
-              <a href="https://github.com/acornitum" target="_blank" rel="noopenner noreferring" className="rotate-45 bg-[#201840] shadow-purple-400 hover:shadow-[0_0_10px] transition w-12 h-12 flex justify-center items-center relative">
-                <img src="/ghlogo.svg" className="-rotate-45 top-2.5 left-2.5 absolute"/>
-              </a>
-              <a href="https://www.instagram.com/a.con.itum/" target="_blank" rel="noopenner noreferring" className="rotate-45 bg-[#201840] shadow-purple-400 hover:shadow-[0_0_10px] transition w-12 h-12 flex justify-center items-center">
-                <img src="/instalogo.svg" className="-rotate-45"/>
-              </a>
-            </div>*/}
-
             <div className="flex flex-row space-x-7 ml-auto mt-auto mb-2 mr-2">
               <a href="https://github.com/acornitum" target="_blank" rel="noopenner noreferring" className="rotate-45 bg-[#FFD16A] border-3 border-white rounded-xs shadow-purple-400 hover:shadow-[0_0_10px] transition w-10 h-10 flex justify-center items-center hover:scale-105">
                 <img src="/ghorange.svg" className="-rotate-45 w-7"/>
@@ -38,12 +25,6 @@ export function Welcome() {
                 <img src="/instapink.svg" className="-rotate-45 w-6.5"/>
               </a>
             </div>
-
-
-
-
-
-
 
           </div>
           
@@ -72,7 +53,7 @@ export function Welcome() {
           <p>after graduating high school june 2024, i took a gap year! i spent a year in vermont to build things @ hack club.</p>
           <p>here are a couple of things i've worked on:</p>
           <p><a href="https://undercity.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">undercity</a>: a 4-day hardware hackathon @ github hq</p>
-          <p><a href="https://solder.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">solder</a>: learn how to make your first first pcb</p>
+          <p><a href="https://solder.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">solder</a>: make your first first pcb, get an electronics kit</p>
 
 
         </div>
