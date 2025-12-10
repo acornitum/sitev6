@@ -64,6 +64,7 @@ export function Welcome() {
 
         <div className="p-4 max-w-xl md:w-xl space-y-3 mt-4 mx-5 text-center mb-4">
           <div className="flex flex-col justify-center items-center text-sm">
+            <p className="text-[#FEE19F]">this site is still a wip!</p>
             <p>commit <a href={latestCommit.html_url} className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">{latestCommit.hash}</a> on {latestCommit.date} // made by acon (<a href="https://github.com/acornitum/sitev6" className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">repo</a>)</p>
           </div>  
         </div>
