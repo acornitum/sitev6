@@ -14,16 +14,27 @@ export function Welcome() {
 
 
         <div className="m-5 max-w-3xl flex flex-col">
-          <img src="/aconpfp.png" className="border-white rounded-sm border-3 w-24 z-10 md:mt-8"/>
+          <div className="flex flex-row">
+            <img src="/aconpfp.png" className="border-white rounded-sm border-3 w-24 z-10 md:mt-8"/>
+            <div className="flex flex-row space-x-7 ml-auto mt-auto mb-2 mr-2">
+              <a href="https://github.com/acornitum" target="_blank" rel="noopenner noreferring" className="rotate-45 bg-[#201840] shadow-purple-400 hover:shadow-[0_0_10px] transition w-12 h-12 flex justify-center items-center relative">
+                <img src="/ghlogo.svg" className="-rotate-45 top-2.5 left-2.5 absolute"/>
+              </a>
+              <a href="https://www.instagram.com/a.con.itum/" target="_blank" rel="noopenner noreferring" className="rotate-45 bg-[#201840] shadow-purple-400 hover:shadow-[0_0_10px] transition w-12 h-12 flex justify-center items-center">
+                <img src="/instalogo.svg" className="-rotate-45"/>
+              </a>
+            </div>
+          </div>
+          
 
           <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-4 relative">
             <p><span className="text-blue-400 font-bold">acon</span>: hi! i’m a 19-year-old from waterloo, canada :3 </p>
-            <p>i currently run programs + events @ <a href="https://hackclub.com/" className="text-[#FEE19F]">hack club</a>! i’m also a first year student @ university of waterloo.</p>
+            <p>i currently run programs + events @ <a href="https://hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">hack club</a>! i’m also a first year student @ university of waterloo.</p>
             <p>some hobbies include:</p>
-            <ul className="list-disc pl-6">
-              <li>hardware projects!!!</li>
-              <li>design + art stuff</li>
-              <li>debate!</li>
+            <ul className="list-disc pl-6 text-sm">
+              <li>hardware projects!!! ({"<3"} kicad + fusion)</li>
+              <li>design + art stuff - see me irl? ask me for a sticker!</li>
+              <li>debate! i love yapping,,, </li>
               
             </ul>
 
@@ -33,17 +44,23 @@ export function Welcome() {
 
         </div>
 
-        <div className="relative">
-          {/*<img src="/grass.svg" className="w-[100vw]"/>*/}
-          <img src="/cat.png" className="absolute bottom-36 left-24 w-72"/>
+        <img src="/cat.png" className="w-96 my-12"/>
+
+
+        <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-4 relative mx-5 text-sm">
+          <p>after graduating high school june 2024, i took a gap year! i spent a year in vermont to build things @ hack club.</p>
+          <p>here are a couple of things i've worked on:</p>
+          <p><a href="https://undercity.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">undercity</a>: a 4-day hardware hackathon @ github hq</p>
+          <p><a href="https://solder.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">solder</a>: learn how to make your first first pcb</p>
+
+
         </div>
 
 
 
-
-        <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 w-xl space-y-3 mt-4">
-          <div className="flex flex-col justify-center items-center">
-            <p>commit <a href={latestCommit.html_url} className="underline hover:decoration-wavy">{latestCommit.hash}</a> on {latestCommit.date} // made by acon</p>
+        <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl md:w-xl space-y-3 mt-4 mx-5 text-center mb-4">
+          <div className="flex flex-col justify-center items-center text-sm">
+            <p>commit <a href={latestCommit.html_url} className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">{latestCommit.hash}</a> on {latestCommit.date} // made by acon (<a href="https://github.com/acornitum/sitev6" className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">repo</a>)</p>
           </div>  
         </div>
 
