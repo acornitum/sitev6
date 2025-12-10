@@ -46,7 +46,7 @@ export function Welcome() {
 
         </div>
 
-        <img src="/cat.png" className="w-96 my-12 hover:scale-101 transition"/>
+        <img src="/cat.png" className="w-64 md:w-96 md:my-6 hover:scale-101 transition"/>
 
 
         <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-4 relative mx-5 text-sm">
