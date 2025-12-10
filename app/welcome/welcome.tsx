@@ -6,7 +6,7 @@ export function Welcome() {
   return (
     <main className="">
 
-      <img src="/bg.png" className="bg-center absolute opacity-40 -z-20"
+      <img src="/bg2.png" className="bg-center absolute opacity-60 -z-20"
       style={{ objectFit: 'cover', width: '100%', height: '100vh' }}/>
 
       <div className="flex flex-col justify-center items-center">
@@ -56,9 +56,11 @@ export function Welcome() {
 
         </div>
 
+        <div className="mt-44"></div>
 
 
-        <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl md:w-xl space-y-3 mt-4 mx-5 text-center mb-4">
+
+        <div className="p-4 max-w-xl md:w-xl space-y-3 mt-4 mx-5 text-center mb-4">
           <div className="flex flex-col justify-center items-center text-sm">
             <p>commit <a href={latestCommit.html_url} className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">{latestCommit.hash}</a> on {latestCommit.date} // made by acon (<a href="https://github.com/acornitum/sitev6" className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">repo</a>)</p>
           </div>  
