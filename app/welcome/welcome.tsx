@@ -16,14 +16,35 @@ export function Welcome() {
         <div className="m-5 max-w-3xl flex flex-col">
           <div className="flex flex-row">
             <img src="/aconpfp.png" className="border-white rounded-sm border-3 w-24 z-10 md:mt-8"/>
-            <div className="flex flex-row space-x-7 ml-auto mt-auto mb-2 mr-2">
+
+
+
+
+
+            {/*<div className="flex flex-row space-x-7 ml-auto mt-auto mb-2 mr-2">
               <a href="https://github.com/acornitum" target="_blank" rel="noopenner noreferring" className="rotate-45 bg-[#201840] shadow-purple-400 hover:shadow-[0_0_10px] transition w-12 h-12 flex justify-center items-center relative">
                 <img src="/ghlogo.svg" className="-rotate-45 top-2.5 left-2.5 absolute"/>
               </a>
               <a href="https://www.instagram.com/a.con.itum/" target="_blank" rel="noopenner noreferring" className="rotate-45 bg-[#201840] shadow-purple-400 hover:shadow-[0_0_10px] transition w-12 h-12 flex justify-center items-center">
                 <img src="/instalogo.svg" className="-rotate-45"/>
               </a>
+            </div>*/}
+
+            <div className="flex flex-row space-x-7 ml-auto mt-auto mb-2 mr-2">
+              <a href="https://github.com/acornitum" target="_blank" rel="noopenner noreferring" className="rotate-45 bg-[#FFD16A] border-3 border-white rounded-xs shadow-purple-400 hover:shadow-[0_0_10px] transition w-10 h-10 flex justify-center items-center hover:scale-105">
+                <img src="/ghorange.svg" className="-rotate-45 w-7"/>
+              </a>
+              <a href="https://www.instagram.com/a.con.itum/" target="_blank" rel="noopenner noreferring" className="rotate-45 bg-[#FFB2AB] border-3 border-white rounded-xs shadow-purple-400 hover:shadow-[0_0_10px] transition w-10 h-10 flex justify-center items-center hover:scale-105">
+                <img src="/instapink.svg" className="-rotate-45 w-6.5"/>
+              </a>
             </div>
+
+
+
+
+
+
+
           </div>
           
 
@@ -44,7 +65,7 @@ export function Welcome() {
 
         </div>
 
-        <img src="/cat.png" className="w-96 my-12"/>
+        <img src="/cat.png" className="w-96 my-12 hover:scale-101 transition"/>
 
 
         <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-4 relative mx-5 text-sm">
