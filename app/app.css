@@ -12,6 +12,19 @@ body {
 
 }
 
+img {
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+
+    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+    image-rendering: -webkit-optimize-contrast;
+
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -webkit-optimize-contrast; /* Safari, Chrome */
+    -ms-interpolation-mode: nearest-neighbor; /* IE */
+}
+
 .bobble {
   animation: bobble-ani 0.7s infinite ease-in-out alternate; 
 }
