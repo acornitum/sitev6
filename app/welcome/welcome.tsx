@@ -93,7 +93,7 @@ export function Welcome() {
           <img src="/catemote2.png" className="w-24 absolute right-4 -top-14 hover:scale-105 transition"/>
           <p>i took a gap year!</p>
           <p>after graduating high school june 2024, i spent a year in vermont to build things @ hack club.</p>
-          <p>here are a couple of things i've worked on:</p>
+          <p>here are a couple of things i've led:</p>
           <p><a href="https://undercity.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">undercity</a>: a 4-day hardware hackathon @ github hq</p>
           <p><a href="https://solder.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">solder</a>: make your first first pcb, get an electronics kit</p>
 
