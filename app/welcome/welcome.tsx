@@ -1,6 +1,5 @@
-import logoDark from "./logo-dark.svg";
-import logoLight from "./logo-light.svg";
-import { Octokit } from "@octokit/core";
+import { Footer } from "../components/footer";
+import { Link } from "react-router-dom";
 
 export function Welcome() {
   return (
@@ -99,57 +98,23 @@ export function Welcome() {
           <p><a href="https://undercity.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">undercity</a>: a 4-day hardware hackathon @ github hq</p>
           <p><a href="https://solder.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">solder</a>: make your first first pcb, get an electronics kit</p>
 
+          <div className="mt-6"><Link to="/pictures">
+            <p className="border-2 border-white p-2 opacity-50 hover:opacity-80 hover:bg-gray-800 transition hover:scale-101">vermont? do you have pictures? →</p>
+          </Link></div>
+
+
+          <div className="">
+            <p className="border-2 border-white p-2 opacity-30 hover:opacity-40">what else did you do during your gap year? → (coming soon)</p>
+          </div>
 
         </div>
 
         <div className="mt-20"></div>
 
-
-
-        <div className="p-4 max-w-xl md:w-xl space-y-3 mt-4 mx-5 text-center mb-4">
-          <div className="flex flex-col justify-center items-center text-sm">
-            <p className="text-[#FEE19F]">this site is still a wip!</p>
-            <div className="flex flex-col md:flex-row md:space-x-4 justify-center items-center">
-              <p>commit <a href={latestCommit.html_url} className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">{latestCommit.hash}</a> on {latestCommit.date}</p>
-              <div className="flex flex-row space-x-4">
-                <img src="/smallcat.png" className="h-5 w-8"/> 
-                <p>made by acon (<a href="https://github.com/acornitum/sitev6" className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">repo</a>)</p>
-              </div>
-             
-            </div>
-          </div>  
-        </div>
-
-
+        < Footer />
 
       </div>
       
     </main>
   );
 }
-
-const octokit = new Octokit({
-  auth: import.meta.env.GITHUB_API_KEY,
-});
-
-export async function getLatestCommit() {
-  const res = await octokit.request(
-    "GET /repos/acornitum/sitev6/commits",
-    {
-      headers: {
-        "X-GitHub-Api-Version": "2022-11-28",
-      },
-    }
-  );
-
-  const commitDate = new Date(res.data[0].commit.author.date);
-  const optionsMonthDayYear = { year: 'numeric', month: 'long', day: 'numeric' };
-
-  return {
-    hash: res.data[0].sha.slice(0, 7),
-    html_url: res.data[0].html_url,
-    date: commitDate.toLocaleDateString("en-US", optionsMonthDayYear),
-  };
-}
-
-const latestCommit = await getLatestCommit();
