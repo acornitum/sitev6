@@ -35,7 +35,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
         
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"></link>
 
       </head>
@@ -61,7 +61,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
     message = error.status === 404 ? "404" : "Error";
     details =
       error.status === 404
-        ? "The requested page could not be found."
+        ? "the requested page could not be found :("
         : error.statusText || details;
   } else if (import.meta.env.DEV && error && error instanceof Error) {
     details = error.message;
@@ -70,8 +70,9 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
 
   return (
     <main className="pt-16 p-4 container mx-auto">
-      <h1>{message}</h1>
+      <h1>{message} ദ്ദി/ᐠ｡‸｡ᐟ\</h1>
       <p>{details}</p>
+      <a href="\"><i><p className="mt-12 text-[#AEBCFF] underline hover:decoration-wavy">it's ok, let's get you back home... →</p></i></a>
       {stack && (
         <pre className="w-full p-4 overflow-x-auto">
           <code>{stack}</code>
