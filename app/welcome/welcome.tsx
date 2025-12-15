@@ -6,7 +6,7 @@ export function Welcome() {
   return (
     <main className="bg-[#0F0C1E]">
 
-      <img src="/bg.png" className="bg-center absolute opacity-60 
+      <img src="/bg.png" draggable="false" className="bg-center absolute opacity-60 
         mask-[radial-gradient(ellipse_90%_50%_at_50%_45%,black_70%,transparent_100%)
         [-webkit-mask-image:radial-gradient(ellipse_90%_50%_at_50%_45%,black_70%,transparent_100%)]"
       style={{ objectFit: 'cover', width: '100%', height: '100vh' }}/>
