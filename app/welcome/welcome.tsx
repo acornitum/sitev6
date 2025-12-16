@@ -44,25 +44,31 @@ export function Welcome() {
           </div>
 
           <div className="flex flex-wrap mt-8 space-x-2 space-y-2 md:space-y-0 justify-center items-center text-center">
-            <div className="w-44 h-64 bg-[#AEBCFF] border-white border-4 rounded-2xl p-2 relative text-center hover:scale-105 transition hover:-rotate-3">
-              <p className="bg-[#DFE5FF] rounded-md p-2 text-[#7381CB] text-xs font-bold">hardware projects!</p>
-              <img src="/cardhardware2.png" className="mt-2"/>
-              <div className="bg-[#DFE5FF] rounded-md p-2 text-[#7381CB] mr-2 bottom-2 absolute">
-                <p className="text-xs font-bold">will 2026 be the year i finally finish them!</p>
+            <div className="border-white border-4 rounded-2xl relative hover:scale-105 transition hover:-rotate-3">
+              <div className="w-44 h-64 bg-[#AEBCFF] border-[#7381CB] border-4 rounded-xl p-2 relative text-center">
+                <p className="bg-[#DFE5FF] rounded-md p-2 text-[#7381CB] text-xs font-bold">hardware projects!</p>
+                <img src="/cardhardware2.png" className="mt-2"/>
+                <div className="bg-[#DFE5FF] rounded-md p-2 text-[#7381CB] mr-2 bottom-2 absolute">
+                  <p className="text-xs font-bold">will 2026 be the year i finally finish them!</p>
+                </div>
               </div>
             </div>
-            <div className="w-44 h-64 bg-[#FFA3AA] border-white border-4 rounded-2xl p-2 relative text-center hover:scale-105 transition hover:-rotate-3">
-              <p className="bg-[#FFECEE] rounded-md p-2 text-[#FF616D] text-xs font-bold">art + design!</p>
-              <img src="/cardart2.png" className="mt-2"/>
-              <div className="bg-[#FFECEE] rounded-md p-2 text-[#FF616D] mr-2 bottom-2 absolute">
-                <p className="text-xs font-bold">if you see me irl, ask me for a sticker :3</p>
+            <div className="border-white border-4 rounded-2xl relative hover:scale-105 transition hover:-rotate-3">
+              <div className="w-44 h-64 bg-[#FFA3AB] border-[#FF616D] border-4 rounded-xl p-2 relative text-center">
+                <p className="bg-[#FFECEE] rounded-md p-2 text-[#FF616D] text-xs font-bold">art + design!</p>
+                <img src="/cardart2.png" className="mt-2"/>
+                <div className="bg-[#FFECEE] rounded-md p-2 text-[#FF616D] mr-2 bottom-2 absolute">
+                  <p className="text-xs font-bold">if you see me irl, ask me for a sticker :3</p>
+                </div>
               </div>
             </div>
-            <div className="w-44 h-64 bg-[#FFD16A] border-white border-4 rounded-2xl p-2 relative text-center hover:scale-105 transition hover:-rotate-3">
-              <p className="bg-[#FFEBD2] rounded-md p-2 text-[#ED7E00] text-xs font-bold">debate!</p>
-              <img src="/carddebate2.png" className="mt-6"/>
-              <div className="bg-[#FFEBD2] rounded-md p-2 text-[#ED7E00] mr-2 bottom-2 absolute">
-                <p className="text-xs font-bold">i love yapping!! i mostly do bp format :D</p>
+            <div className="border-white border-4 rounded-2xl relative hover:scale-105 transition hover:-rotate-3">
+              <div className="w-44 h-64 bg-[#FFD16A] border-[#ED7E00] border-4 rounded-xl p-2 relative text-center">
+                <p className="bg-[#FFEBD2] rounded-md p-2 text-[#ED7E00] text-xs font-bold">debate!</p>
+                <img src="/carddebate2.png" className="mt-6"/>
+                <div className="bg-[#FFEBD2] rounded-md p-2 text-[#ED7E00] mr-2 bottom-2 absolute">
+                  <p className="text-xs font-bold">i love yapping!! i mostly do bp format :D</p>
+                </div>
               </div>
             </div>
           </div>
