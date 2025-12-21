@@ -1,6 +1,6 @@
 ---
 title: How to make a vtuber style logo in figma
-date: 2024-12-17
+date: 2024-12-21
 tags:
 - work in progress
 - tutorial
