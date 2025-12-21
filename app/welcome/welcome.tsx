@@ -109,6 +109,9 @@ export function Welcome() {
             <p className="border-2 border-white p-2 opacity-50 hover:opacity-80 hover:bg-gray-800 transition hover:scale-101">vermont? do you have pictures? →</p>
           </Link></div>
 
+          <div className=""><Link to="/now">
+            <p className="border-2 border-white p-2 opacity-50 hover:opacity-80 hover:bg-gray-800 transition hover:scale-101">what are you up to now? →</p>
+          </Link></div>
 
           <div className="">
             <p className="border-2 border-white p-2 opacity-30 hover:opacity-40">what else did you do during your gap year? → (coming soon)</p>
