@@ -1,7 +1,15 @@
 ---
 title: Now
-updated: 2025-12-21
+updated: 2026-09-17
 ---
+
+## Sept 2026
+
+1. hardware hardware hardware! i'm actually going to finish stopwatch this term. pivoted to using an stm32 and a sharp lcd display! also going to work on the nrf52 keyboard i started this summer.
+2. locking in on school... hopefully for real this time...
+3. debate! going to worlds this winter. need to get better at it. 
+4. going to many clubs + socializing this term!
+
 
 ## Dec 2025
 

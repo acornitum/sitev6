@@ -50,7 +50,7 @@ export function Welcome() {
                 <p className="bg-[#DFE5FF] rounded-md p-2 text-[#7381CB] text-xs font-bold">hardware projects!</p>
                 <img src="/cardhardware2.png" className="mt-2"/>
                 <div className="bg-[#DFE5FF] rounded-md p-2 text-[#7381CB] mr-2 bottom-2 absolute">
-                  <p className="text-xs font-bold">will 2026 be the year i finally finish them!</p>
+                  <p className="text-xs font-bold">embedded systems! printed circuit boards!</p>
                 </div>
               </div>
             </div>
@@ -74,24 +74,37 @@ export function Welcome() {
             </div>
           </div>
 
-          <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 md:pb-2 max-w-xl space-y-3 mt-12 relative text-sm">
+          <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 md:pb-4 max-w-xl space-y-3 mt-12 relative text-sm">
             <img src="/catemote3.png" className="w-24 absolute right-4 -top-6 hover:scale-105 transition"/>
-            <p className="mr-28 hidden md:block">also! i code sometimes! this site is made with react + tailwind. check out my <a href="https://github.com/acornitum" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">github</a>!</p>
-            <div className="md:hidden">
+            <p className="mr-28 block text-pretty">also! i code sometimes! this site is made with react + tailwind. check out my <a href="https://github.com/acornitum" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">github</a>!</p>
+            <div className="hidden">
               <p className="">also! i code sometimes!</p>
               <p>i made this site with react.</p>
               <p>check out my <a href="https://github.com/acornitum" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">github!</a></p>
             </div>
+
+            <p>at the moment, i'm most interested in making pcbs, and things related to embedded systems.</p>
+
+            <p className="">a couple hardware projects i've made:</p>
             
           </div>
+        </div>
 
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-xl mb-8 mx-5 text-xs">
+          <a className="rounded border-3 border-gray-200 relative overflow-hidden" href="https://github.com/acornitum/outpost-badge" target="_blank" rel="noopenner noreferrer">
+            <img src="hardware-outpost-badge.png" className="hover:scale-108 transition duration-300"/>
+            <div className="bg-gray-950/85 opacity-80 absolute bottom-0 p-2 text-center text-balance">
+              <p>rp2354 based hackathon badge w/ e-ink screen! <a href="https://github.com/acornitum/outpost-badge" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">[<span className="underline hover:decoration-wavy">repo</span>]</a></p>
+            </div>
+          </a>
 
-
-
-
-
-
-
+          <a className="rounded border-3 border-gray-200 relative overflow-hidden" href="https://github.com/acornitum/snowflake" target="_blank" rel="noopenner noreferrer">
+            <img src="hardware-snowflake.png" className="hover:scale-108 transition duration-300"/>
+            <div className="bg-gray-950/85 opacity-90 absolute bottom-0 p-2 text-center text-balance">
+              <p>one key macropad! fidget key but it actually works <a href="https://github.com/acornitum/snowflake" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">[<span className="underline hover:decoration-wavy">repo</span>]</a></p>
+            </div>
+          </a>
+          
         </div>
 
         <img src="/cat.png" className="w-64 md:w-96 md:my-6 hover:scale-101 transition"/>
@@ -99,11 +112,20 @@ export function Welcome() {
 
         <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-4 relative mx-5 text-sm">
           <img src="/catemote2.png" className="w-24 absolute right-4 -top-14 hover:scale-105 transition"/>
-          <p>i took a gap year!</p>
-          <p>after graduating high school june 2024, i spent a year in vermont to build things @ hack club.</p>
+
+
+          <p>i run programs + events @ hack club!</p>
+
+          <p>i took a gap year after graduating high school in 2024 to spend a year in vermont at hack club hq. since starting university, i've been part time.</p>
+
           <p>here are a couple of things i've led:</p>
-          <p><a href="https://undercity.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">undercity</a>: a 4-day hardware hackathon @ github hq</p>
-          <p><a href="https://solder.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">solder</a>: make your first first pcb, get an electronics kit</p>
+          <div className="space-y-0">
+            <p><a href="https://undercity.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">undercity</a>: a 4-day hardware hackathon @ github hq</p>
+            <p><a href="https://magazine.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">magazine</a>: a physical collection of 150+ hack clubber projects</p>
+            <p><a href="https://solder.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">solder</a>: make your first first pcb, get an electronics kit</p>            
+            <p><a href="https://outpost.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">outpost</a>: a showcase with 20 booths and 120 teens at open sauce</p>      
+          </div>
+
 
           <div className="mt-6"><Link to="/pictures">
             <p className="border-2 border-white p-2 opacity-50 hover:opacity-80 hover:bg-gray-800 transition hover:scale-101">vermont? do you have pictures? →</p>
