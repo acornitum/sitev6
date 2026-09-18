@@ -122,7 +122,7 @@ export function Welcome() {
           <div className="space-y-0">
             <p><a href="https://undercity.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">undercity</a>: a 4-day hardware hackathon @ github hq</p>
             <p><a href="https://magazine.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">magazine</a>: a physical collection of 150+ hack clubber projects</p>
-            <p><a href="https://solder.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">solder</a>: make your first first pcb, get an electronics kit</p>            
+            <p><a href="https://solder.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">solder</a>: make your first pcb, get an electronics kit</p>            
             <p><a href="https://outpost.hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">outpost</a>: a showcase with 20 booths and 120 teens at open sauce</p>      
           </div>
 
