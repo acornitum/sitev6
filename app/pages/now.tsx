@@ -1,9 +1,9 @@
-import type { LoaderFunctionArgs } from "react-router-dom";
+import type { LoaderFunctionArgs } from "react-router";
 import { Footer } from "../components/footer";
 
 import matter from "gray-matter";
 import { marked } from "marked";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router";
 
 
 export default function Now() {

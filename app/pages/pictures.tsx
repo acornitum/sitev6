@@ -1,4 +1,4 @@
-import type { LoaderFunctionArgs } from "react-router-dom";
+import type { LoaderFunctionArgs } from "react-router";
 import { Footer } from "../components/footer";
 
 export async function loader(_: LoaderFunctionArgs) {

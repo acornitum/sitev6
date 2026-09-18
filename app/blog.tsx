@@ -1,6 +1,6 @@
 import { marked } from "marked";
-import { useLoaderData } from "react-router-dom";
-import type { LoaderFunctionArgs } from "react-router-dom";
+import { useLoaderData } from "react-router";
+import type { LoaderFunctionArgs } from "react-router";
 import matter from "gray-matter";
 import { Footer } from "./components/footer";
 

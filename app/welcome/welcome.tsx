@@ -1,5 +1,5 @@
 import { Footer } from "../components/footer";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 export function Welcome() {
   return (
