@@ -31,7 +31,7 @@ export function Welcome() {
           </div>
           
 
-          <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-4 relative">
+          <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-4 relative text-sm">
             <p><span className="text-blue-400 font-bold">acon</span>: hi! i’m a 19-year-old from waterloo, canada :3 </p>
             <p>i currently run programs + events @ <a href="https://hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">hack club</a>! i’m also a first year student @ university of waterloo.</p>
 
@@ -39,7 +39,7 @@ export function Welcome() {
 
           </div>
 
-          <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-12 relative">
+          <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-12 relative text-sm">
             <img src="/catemote1.png" className="w-28 absolute right-4 -top-6 hover:scale-105 transition"/>
             <p>some hobbies include:</p>
           </div>
@@ -74,7 +74,7 @@ export function Welcome() {
             </div>
           </div>
 
-          <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 md:pb-2 max-w-xl space-y-3 mt-12 relative">
+          <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 md:pb-2 max-w-xl space-y-3 mt-12 relative text-sm">
             <img src="/catemote3.png" className="w-24 absolute right-4 -top-6 hover:scale-105 transition"/>
             <p className="mr-28 hidden md:block">also! i code sometimes! this site is made with react + tailwind. check out my <a href="https://github.com/acornitum" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">github</a>!</p>
             <div className="md:hidden">
