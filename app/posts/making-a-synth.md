@@ -184,3 +184,5 @@ Things I'd do if I had more time:
 - add an accelerometer sensor, and make eyes change on movement
 - add fans on the inside
 - perhaps making my own neopixel matrix pcbs for the eyes?
+
+I'll definitely be trying to make another fursuit head in the future. Until next time!
