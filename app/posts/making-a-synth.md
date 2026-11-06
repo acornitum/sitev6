@@ -165,16 +165,14 @@ Since I was traveling during this time (this project was started in Vermont, as 
 
 Materials and tools included, this project probably cost somewhere around 200 USD. I didn't have the majority of the tools before making this project, but I now have random things like a heat gun... and wielding gloves...
 
-I don't think any individual part of this project was technically challenging - the hardest part was probably just having the motivation to execute. When I first started the project, I told myself I'd finish it if I could successfully make the visor, which was the huge unknown variable at the time. After two days and probably ~10 hours, the visor was complete. Now I _had_ to finish the rest, because what is a visor with the synth? It also helped that I could internalize Halloween was a strict deadline. I've probably spent around 30-40 hours total on this project.
+I don't think any individual part of this project was technically challenging - the hardest part was probably just having the motivation to execute. When I first started the project, I told myself I'd finish it if I could successfully make the visor, which was the huge unknown variable at the time. After two days and probably ~10 hours, the visor was complete. Now I _had_ to finish the rest, because what is a visor without the synth? It also helped that I could internalize Halloween was a strict deadline. I've probably spent around 30-40 hours total on this project.
 
-[This video](https://www.youtube.com/watch?v=4jgTCayWlwc) by BPS.space is vaguly what plays in my head every time I'm working on a personal project, and I'd highly recommend giving it a watch, no matter what you're making. The worst thing that can happen to a personal project is to never finish it, so it's okay to cut corners if that is what it takes to get it done. Don't overscope it!!!
+[This video](https://www.youtube.com/watch?v=4jgTCayWlwc) by BPS.space is vaguely what plays in my head every time I'm working on a personal project, and I'd highly recommend giving it a watch, no matter what you're making. The worst thing that can happen to a personal project is to never finish it, so it's okay to cut corners if that is what it takes to get it done. Don't overscope it!!!
 
 ![](/blog/synth/10.png)
 
 Other things that happened during the making of the synth head:
-- i started this project in vermont while traveling for reading week! 
-- and i finished it in my bedroom in waterloo :D
-- skipping 2 midterms to work on it (also skipped a lot of classes. wouldn't recommend.)
+- skipping 2 midterms to work on it (in my defense, i was a bit sick)
 - sneaking into the fine arts spray painting room at UW to spray paint it 
 - probably many osha violations 
 
@@ -186,3 +184,6 @@ Things I'd do if I had more time:
 - perhaps making my own neopixel matrix pcbs for the eyes?
 
 I'll definitely be trying to make another fursuit head in the future. Until next time!
+
+![](/blog/synth/11.png)
+
