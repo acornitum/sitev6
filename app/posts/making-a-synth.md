@@ -167,7 +167,7 @@ Materials and tools included, this project probably cost somewhere around 200 US
 
 I don't think any individual part of this project was technically challenging - the hardest part was probably just having the motivation to execute. When I first started the project, I told myself I'd finish it if I could successfully make the visor, which was the huge unknown variable at the time. After two days and probably ~10 hours, the visor was complete. Now I _had_ to finish the rest, because what is a visor without the synth? It also helped that I could internalize Halloween was a strict deadline. I've probably spent around 30-40 hours total on this project.
 
-[This video](https://www.youtube.com/watch?v=4jgTCayWlwc) by BPS.space is vaguely what plays in my head every time I'm working on a personal project, and I'd highly recommend giving it a watch, no matter what you're making. The worst thing that can happen to a personal project is to never finish it, so it's okay to cut corners if that is what it takes to get it done. Don't overscope it!!!
+[This video](https://www.youtube.com/watch?v=4jgTCayWlwc) by BPS.space is vaguely what plays in my head every time I'm working on a personal project, and I'd highly recommend giving it a watch, no matter what you're making. The worst thing that can happen to a personal project is to never finish it, so it's okay to cut corners, if that is what it takes to get it done. Don't overscope!!!
 
 ![](/blog/synth/10.png)
 

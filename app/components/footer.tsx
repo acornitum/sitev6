@@ -6,7 +6,7 @@ export function Footer() {
         <div className="p-4 space-y-3 mt-4 mx-5 text-center mb-4 z-10">
           <div className="flex flex-col justify-center items-center text-sm">
             <p className="text-[#FEE19F]">this site is still a wip!</p>
-            <div className="flex flex-col md:flex-row md:space-x-4 justify-center items-center">
+            <div className="flex flex-col md:flex-row md:space-x-4 justify-center items-center opacity-80">
               <p>commit <a href={latestCommit.html_url} className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">{latestCommit.hash}</a> on {latestCommit.date}</p>
               <div className="flex flex-row space-x-4 justify-center items-center">
                 <img src="/smallcat.png" className="h-4 w-7"/> 
