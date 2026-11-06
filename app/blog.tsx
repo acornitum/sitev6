@@ -47,8 +47,8 @@ export default function BlogPost() {
         
         <div className="flex flex-col justify-center items-center bg-[#1E1F2A]">
             <div className="mt-16 mx-5">
-                <a href="/"><img src="/catback.png" className="w-24"/></a>
-                <article className="max-w-6xl">
+                <a href="/"><img src="/catback.png" className="w-10"/></a>
+                <article className="max-w-4xl">
                     <div className="my-10">
                         <h1 className="mb-2 text-4xl font-bold">{title}</h1>
                         <div className="flex flex-row items-center">

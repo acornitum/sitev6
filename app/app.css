@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
@@ -39,9 +40,23 @@ img {
   }
 }
 
+.markdown {
+  font-family: "Inter Variable", Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.markdown p {
+  line-height: 1.5;
+}
+
 .markdown a {
   color: #AEBCFF;
 }
+
+.markdown a:hover {
+  color: #90b7ff;
+  text-decoration-style: wavy;
+}
+
 
 .markdown ul {
   list-style: disc;
