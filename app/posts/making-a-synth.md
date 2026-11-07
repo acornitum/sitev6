@@ -7,7 +7,7 @@ tags:
 
 In the two weeks leading up to Halloween, I made a synth head! This post goes over how I made it, as well as recommendations if you're wanting to make one too. 
 
-I'm really happy with how mine turned out. There are still parts I want to add, but I think it looks presentable enough to wear, which is what I did all day the friday before Halloween around Waterloo campus :-) 
+I'm really happy with how mine turned out. There are still parts I want to add, but I think it looks presentable enough to wear, which is what I did all day the Friday before Halloween around Waterloo campus :-) 
 
 ![](/blog/synth/1.png)
 
@@ -84,7 +84,7 @@ Onto dyeing it :D
 My setup was super scuffed and on the budget end, but it worked well. I'd highly recommend watching [this video](https://www.reddit.com/r/protogen/comments/1ur6mgx/heres_how_we_dye_our_protogen_visors/) on the entire dyeing process.
 
 
-You'll need two buckets that are able to fit the entirety of the bent visor. One should be metal, to be heated up on a hotplate, and the other can be anything as it'll be filled with cold water. For the metal bucket, I one a cheap one (~16 USD) from Lowes; I think it's supposed to be use for gardening or painting or something, but it worked fine for this. Make sure both are able to fit the entirety of the bent visor!
+You'll need two buckets that are able to fit the entirety of the bent visor. One should be metal, to be heated up on a hotplate, and the other can be anything as it'll be filled with cold water. For the metal bucket, I got a cheap one (~16 USD) from Lowes; I think it's supposed to be used for gardening or painting or something, but it worked fine for this. Make sure both are able to fit the entirety of the bent visor!
 
 You _could_ use a stove instead of a hotplate, but I would not recommend doing this in a kitchen. You could also use a large pot instead of a metal bucket, but you can't use it for food after dyeing it :(
 
