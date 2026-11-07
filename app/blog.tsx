@@ -4,6 +4,15 @@ import type { LoaderFunctionArgs } from "react-router";
 import matter from "gray-matter";
 import { Footer } from "./components/footer";
 
+import type { MetaArgs } from "react-router";
+
+export function meta({ data }: MetaArgs) {
+  return [
+    { title: data?.title ? `${data.title} | acon` : "Post not found" },
+    { name: "description", content: `${data?.title ?? "Blog post"}` },
+  ];
+}
+
 // import all markdown files at build time
 const posts = import.meta.glob("/app/posts/*.md", {
   query: '?raw', 
