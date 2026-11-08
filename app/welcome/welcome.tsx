@@ -86,26 +86,36 @@ export function Welcome() {
 
             <p>at the moment, i'm most interested in making pcbs, and things related to embedded systems.</p>
 
-            <p className="">a couple hardware projects i've made:</p>
+            <p className="">a couple projects i've made:</p>
             
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-xl mb-8 mx-5 text-xs">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-xl mb-4 mx-5 text-xs">
           <a className="rounded border-3 border-gray-200 relative overflow-hidden" href="https://github.com/acornitum/outpost-badge" target="_blank" rel="noopenner noreferrer">
             <img src="hardware-outpost-badge.png" className="hover:scale-108 transition duration-300"/>
-            <div className="bg-gray-950/85 opacity-80 absolute bottom-0 p-2 text-center text-balance">
+            <div className="bg-gray-950/85 opacity-80 absolute bottom-0 p-2 text-center text-balance w-full">
               <p>rp2354 based hackathon badge w/ e-ink screen! <a href="https://github.com/acornitum/outpost-badge" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">[<span className="underline hover:decoration-wavy">repo</span>]</a></p>
             </div>
           </a>
 
           <a className="rounded border-3 border-gray-200 relative overflow-hidden" href="https://github.com/acornitum/snowflake" target="_blank" rel="noopenner noreferrer">
             <img src="hardware-snowflake.png" className="hover:scale-108 transition duration-300"/>
-            <div className="bg-gray-950/85 opacity-90 absolute bottom-0 p-2 text-center text-balance">
+            <div className="bg-gray-950/85 opacity-90 absolute bottom-0 p-2 text-center text-balance w-full">
               <p>one key macropad! fidget key but it actually works <a href="https://github.com/acornitum/snowflake" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">[<span className="underline hover:decoration-wavy">repo</span>]</a></p>
             </div>
           </a>
           
+        </div>
+
+        <div className="grid grid-cols-1 gap-4 max-w-xl mb-8 mx-5 text-xs">
+          <a className="rounded border-3 border-gray-200 relative overflow-hidden" href="/blog/making-a-synth" target="_blank" rel="noopenner noreferrer">
+            <img src="hardware-synth-head.png" className="hidden md:block hover:scale-108 transition duration-300"/>
+            <img src="hardware-synth-head2.png" className="md:hidden hover:scale-108 transition duration-300"/>
+            <div className="bg-gray-950/85 opacity-80 absolute bottom-0 p-2 text-center text-balance w-full">
+              <p>synth head! made in 2 weeks for halloween :D <a href="/blog/making-a-synth" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">[<span className="underline hover:decoration-wavy">read about how i made it here</span>]</a></p>
+            </div>
+          </a>
         </div>
 
         <img src="/cat.png" className="w-64 md:w-96 md:my-6 hover:scale-101 transition"/>
@@ -115,7 +125,7 @@ export function Welcome() {
           <img src="/catemote2.png" className="w-24 absolute right-4 -top-14 hover:scale-105 transition"/>
 
 
-          <p>i run programs + events @ hack club!</p>
+          <p>i run programs + events @ <a href="https://hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">hack club</a>!</p>
 
           <p>i took a gap year after graduating high school in 2024 to spend a year in vermont at hack club hq. since starting university, i've been part time.</p>
 
