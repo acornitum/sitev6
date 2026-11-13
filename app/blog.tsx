@@ -51,14 +51,13 @@ export default function BlogPost() {
   const { html, title, date, tags } = useLoaderData<typeof loader>();
 
   return (
-    <main className="">
+    <main className="bg-[#1E1F2A] flex flex-col">
         
-        
-        <div className="flex flex-col justify-center items-center bg-[#1E1F2A]">
-            <div className="mt-16 mx-5">
-                <a href="/"><img src="/catback.png" className="w-10"/></a>
+        <a href="/"><img src="/catback.png" className="mt-8 lg:mt-10 ml-5 lg:ml-10 mb-5 lg:mb-0 w-10 hover:scale-110 transition"/></a>
+        <div className="flex flex-col justify-center items-center">
+            <div className="mx-5">
                 <article className="max-w-4xl">
-                    <div className="my-10">
+                    <div className="mb-10">
                         <h1 className="mb-2 text-4xl font-bold">{title}</h1>
                         <div className="flex flex-row items-center">
                             <p className="mr-4">{date}</p> <img src="/smallcat.png" className="h-4 w-7 mr-4"/> <p>acon</p> 

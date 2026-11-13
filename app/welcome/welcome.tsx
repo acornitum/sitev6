@@ -124,6 +124,19 @@ export function Welcome() {
         <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-4 relative mx-5 text-sm">
           <img src="/catemote2.png" className="w-24 absolute right-4 -top-14 hover:scale-105 transition"/>
 
+          <p>blog!!!</p>
+
+          <div className="mt-6"><Link to="/blog/making-a-synth">
+            <p className="border-2 border-white p-2 opacity-50 hover:opacity-80 hover:bg-gray-800 transition hover:scale-101">how to make a synth head →</p>
+          </Link></div>
+
+        </div>
+
+
+
+        <div className="border-3 border-white bg-gray-950/85  rounded-sm p-4 max-w-xl space-y-3 mt-20 relative mx-5 text-sm">
+          <img src="/catemote2.png" className="w-24 absolute right-4 -top-14 hover:scale-105 transition"/>
+
 
           <p>i run programs + events @ <a href="https://hackclub.com/" className="text-[#FEE19F]" target="_blank" rel="noopenner noreferrer">hack club</a>!</p>
 

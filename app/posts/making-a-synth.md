@@ -124,6 +124,8 @@ Then, spray paint the pieces! I only had time to do one coat, but I recommend do
 
 You'll also need a base for the visor to rest on. People usually use a sturdier material for it (ie: 3d printed PLA or worbla) but I just used more eva foam. You'll need to make a top part and a bottom jaw. 
 
+![](/blog/synth/12.png)
+
 I ran 1.5" elastic through the top and sides to hold the base onto my head. Also, put velcro onto the nose and top of the base, and to the bottom of the visor, so that the two parts are detachable at will. 
 
 Before gluing the pieces together, tape it together again and put it on your head. It should be able to rest without needing you to hold it up. Make sure it fits! 
